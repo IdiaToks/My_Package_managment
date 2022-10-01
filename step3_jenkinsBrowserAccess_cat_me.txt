@@ -1,0 +1,7 @@
+#ensure you instances in the cloud have ports 80 and 8080 also open. Configuring it on the CLI alone won't do it unless you were using an IaC tool like Terraform
+#after opening ports check your ip address by running curl ifconfig.co
+# enter ipaddress:8080 or assigned port in browser. You will get this command below. Run it for you initial admin password, then you can reset
+
+
+
+#suod cat /var/lib/jenkins/secrets/initialAdminPassword
